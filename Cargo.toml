@@ -1,0 +1,13 @@
+[package]
+name = "xcb-imdkit-sys"
+version = "0.1.0"
+authors = ["kiwiyou <kiwiyou.dev@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/kiwiyou/xcb-imdkit-sys"
+description = "Rust bindings to xcb-imdkit generated using bindgen"
+license = "MIT OR Apache-2.0"
+keywords = ["xcb"]
+categories = ["external-ffi-bindings"]
+
+[build-dependencies]
+bindgen = "0.56.0"
